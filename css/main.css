@@ -25,4 +25,22 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.img-holder {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.circle-box {
+  left: 800px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
