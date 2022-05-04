@@ -9,7 +9,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #fff;
+  background-color: #c6d1d3;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,20 +27,31 @@ body {
 }
 
 .img-holder {
-  position: absolute;
-  top: 50%;
-  left: 50px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.img-holder img {
+  border-radius: 10px;
 }
 
 .circle-box {
-  left: 800px;
+  display: none;
+  position: relative;
+  left: -70px;
   width: 300px;
   height: 300px;
   overflow: hidden;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 5px solid #d5d6d6;
+  -webkit-box-shadow: 0px 0px 32px 3px #000000cf;
+          box-shadow: 0px 0px 32px 3px #000000cf;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 /*# sourceMappingURL=main.css.map */

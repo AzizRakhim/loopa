@@ -1,15 +1,24 @@
 .img-holder{
-  position: absolute;
-  top: 50%;
-  left: 50px;
-  transform: translateY(-50%);
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  cursor: zoom-in;
+
+  img{
+    border-radius: 10px;
+  }
 }
 
 .circle-box{
-  left: 800px;
+  display: none;
+  position: relative;
+  left: -70px;
   width: 300px;
   height: 300px;
   overflow: hidden;
   border-radius: 50%;
   object-fit: cover;
+  border: 5px solid #d5d6d6;
+  box-shadow: 0px 0px 32px 3px #000000cf;
+  transition: all 0.3s ease;
 }
